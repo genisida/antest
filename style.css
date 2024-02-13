@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+label{
+  display:block;
+}
+
+button,input:not([type=file]){
+  width: 40%;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  height: 100vh!important;
+  width: auto!important;
+}
+
+#setting{
+  position:absolute;
+  background: #8888;
+  color: #FFF;
+  top: 1em;
+  left: 1em;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+#splash{
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+}
+
+#init{
+  border: none;
+  padding: 0.5em;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  background: #eee;
+}

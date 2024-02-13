@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<!--助けを借りたやつ
+  https://weblike-curtaincall.ssl-lolipop.jp/portfolio-web-sounder/webaudioapi-visualization/draw-wave
+  https://cgbeginner.net/wavelength-to-rgb/
+  https://www.g200kg.com/jp/docs/webaudio/analyser.html
+  -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ANtest</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" type="module"></script>
+</head>
+
+<body style="background: #000000;">
+  <div id="splash">
+    <h1>Web Analyser Test</h1>
+    <button id="init">start!</button>
+  </div>
+  <main>
+  </main>
+  <div id="setting">
+    <label><button id="state">play</button></label>
+    <label><input type="file" id="file"></label>
+    <label><input type="range" id="volume" min="0" max="1" step="any">音丸の大きさ</label>
+    <label><input type="color" id="color">背景色</label>
+  </div>
+</body>
+
+</html>
