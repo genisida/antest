@@ -51,6 +51,7 @@ export const AudioVisualizer = class {
     } else {
       this.stop();
     }
+    return this;
   }
   update() {
     this.analyser.getFloatFrequencyData(this.db);
