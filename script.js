@@ -1,6 +1,6 @@
 "use strict";
-import { sketch } from "/module/render.mjs";
-import { AudioVisualizer } from "/module/visualizer.mjs";
+import { sketch } from "./module/render.mjs";
+import { AudioVisualizer } from "./module/visualizer.mjs";
 import "https://code.jquery.com/jquery-3.3.1.min.js";
 import "https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js";
 
