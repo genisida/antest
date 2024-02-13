@@ -13,5 +13,5 @@ $("#init").click(async () => {
   $("#file").change(async e => await audio.setFile(e.target.files[0]));
   new p5(sketch(() => [audio.update().data, volume]), "main");
   new Promise(r => $("#splash").animate({ opacity: 0 }, 1000, r))
-    .then(() => $("#splash").css({ display: "none" }))
+    .then(() => $("#splash").hide())
 });
